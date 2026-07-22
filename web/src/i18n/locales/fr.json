@@ -5214,6 +5214,13 @@
     "Zero retention": "Aucune rétention",
     "Zhipu": "Zhipu",
     "Zhipu V4": "Zhipu V4",
-    "Zoom": "Zoom"
+    "Zoom": "Zoom",
+    "Infinite Canvas": "Canevas infini",
+    "Opening Infinite Canvas...": "Ouverture du canevas infini…",
+    "Your Image token is being transferred securely. This page will redirect automatically.": "Votre jeton du groupe Image est transféré de manière sécurisée. La page va être redirigée automatiquement.",
+    "No usable Image group token was found. Create or enable one and try again.": "Aucun jeton utilisable du groupe Image n’a été trouvé. Créez-en ou activez-en un, puis réessayez.",
+    "The Image token group is not available for your account.": "Le groupe de jetons Image n’est pas disponible pour votre compte.",
+    "Infinite Canvas is not configured correctly. Contact an administrator.": "Le canevas infini n’est pas configuré correctement. Contactez un administrateur.",
+    "Unable to open Infinite Canvas. Please try again.": "Impossible d’ouvrir le canevas infini. Réessayez."
   }
 }

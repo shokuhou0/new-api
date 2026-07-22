@@ -5214,6 +5214,13 @@
     "Zero retention": "Zero retention",
     "Zhipu": "Zhipu",
     "Zhipu V4": "Zhipu V4",
-    "Zoom": "Zoom"
+    "Zoom": "Zoom",
+    "Infinite Canvas": "Infinite Canvas",
+    "Opening Infinite Canvas...": "Opening Infinite Canvas...",
+    "Your Image token is being transferred securely. This page will redirect automatically.": "Your Image token is being transferred securely. This page will redirect automatically.",
+    "No usable Image group token was found. Create or enable one and try again.": "No usable Image group token was found. Create or enable one and try again.",
+    "The Image token group is not available for your account.": "The Image token group is not available for your account.",
+    "Infinite Canvas is not configured correctly. Contact an administrator.": "Infinite Canvas is not configured correctly. Contact an administrator.",
+    "Unable to open Infinite Canvas. Please try again.": "Unable to open Infinite Canvas. Please try again."
   }
 }

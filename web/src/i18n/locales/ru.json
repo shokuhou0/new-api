@@ -5214,6 +5214,13 @@
     "Zero retention": "Без хранения данных",
     "Zhipu": "Zhipu",
     "Zhipu V4": "Zhipu V4",
-    "Zoom": "Zoom"
+    "Zoom": "Zoom",
+    "Infinite Canvas": "Бесконечный холст",
+    "Opening Infinite Canvas...": "Открываем бесконечный холст…",
+    "Your Image token is being transferred securely. This page will redirect automatically.": "Токен группы Image передаётся безопасно. Страница будет перенаправлена автоматически.",
+    "No usable Image group token was found. Create or enable one and try again.": "Не найден доступный токен группы Image. Создайте или включите его и повторите попытку.",
+    "The Image token group is not available for your account.": "Группа токенов Image недоступна для вашей учётной записи.",
+    "Infinite Canvas is not configured correctly. Contact an administrator.": "Бесконечный холст настроен неверно. Обратитесь к администратору.",
+    "Unable to open Infinite Canvas. Please try again.": "Не удалось открыть бесконечный холст. Повторите попытку."
   }
 }

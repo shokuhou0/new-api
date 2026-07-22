@@ -5214,6 +5214,13 @@
     "Zero retention": "データ保持なし",
     "Zhipu": "Zhipu",
     "Zhipu V4": "Zhipu V 4",
-    "Zoom": "ズーム"
+    "Zoom": "ズーム",
+    "Infinite Canvas": "無限キャンバス",
+    "Opening Infinite Canvas...": "無限キャンバスを開いています…",
+    "Your Image token is being transferred securely. This page will redirect automatically.": "Image グループのトークンを安全に転送しています。ページは自動的に移動します。",
+    "No usable Image group token was found. Create or enable one and try again.": "使用可能な Image グループのトークンがありません。作成または有効化してから再試行してください。",
+    "The Image token group is not available for your account.": "このアカウントでは Image トークングループを利用できません。",
+    "Infinite Canvas is not configured correctly. Contact an administrator.": "無限キャンバスが正しく設定されていません。管理者に連絡してください。",
+    "Unable to open Infinite Canvas. Please try again.": "無限キャンバスを開けません。もう一度お試しください。"
   }
 }

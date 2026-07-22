@@ -85,6 +85,25 @@ func GetAllUserTokens(userId int, startIdx int, num int) ([]*Token, error) {
 	return tokens, err
 }
 
+func GetUsableUserTokenByGroup(userId int, group string, now int64) (*Token, error) {
+	token := &Token{}
+	err := DB.Where("user_id = ? AND status = ? AND "+commonGroupCol+" = ?", userId, common.TokenStatusEnabled, group).
+		Where("(expired_time = ? OR expired_time > ?)", -1, now).
+		Where("(unlimited_quota = ? OR remain_quota > ?)", true, 0).
+		Order("id desc").
+		First(token).Error
+	return token, err
+}
+
+func GetUsableUserTokenByIdAndGroup(tokenId, userId int, group string, now int64) (*Token, error) {
+	token := &Token{}
+	err := DB.Where("id = ? AND user_id = ? AND status = ? AND "+commonGroupCol+" = ?", tokenId, userId, common.TokenStatusEnabled, group).
+		Where("(expired_time = ? OR expired_time > ?)", -1, now).
+		Where("(unlimited_quota = ? OR remain_quota > ?)", true, 0).
+		First(token).Error
+	return token, err
+}
+
 // sanitizeLikePattern 校验并清洗用户输入的 LIKE 搜索模式。
 // 规则：
 //  1. 转义 ! 和 _（使用 ! 作为 ESCAPE 字符，兼容 MySQL/PostgreSQL/SQLite）

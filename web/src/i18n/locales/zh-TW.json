@@ -5214,6 +5214,13 @@
     "Zero retention": "零數據保留",
     "Zhipu": "智譜",
     "Zhipu V4": "智譜 V4",
-    "Zoom": "縮放"
+    "Zoom": "縮放",
+    "Infinite Canvas": "無限畫布",
+    "Opening Infinite Canvas...": "正在開啟無限畫布…",
+    "Your Image token is being transferred securely. This page will redirect automatically.": "正在安全傳遞 Image 分組權杖，頁面將自動跳轉。",
+    "No usable Image group token was found. Create or enable one and try again.": "找不到可用的 Image 分組權杖，請建立或啟用權杖後重試。",
+    "The Image token group is not available for your account.": "您的帳戶無法使用 Image 權杖分組。",
+    "Infinite Canvas is not configured correctly. Contact an administrator.": "無限畫布設定不正確，請聯絡管理員。",
+    "Unable to open Infinite Canvas. Please try again.": "無法開啟無限畫布，請重試。"
   }
 }

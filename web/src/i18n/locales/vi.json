@@ -5214,6 +5214,13 @@
     "Zero retention": "Không lưu dữ liệu",
     "Zhipu": "Zhipu",
     "Zhipu V4": "Zhipu V4",
-    "Zoom": "Zoom"
+    "Zoom": "Zoom",
+    "Infinite Canvas": "Bảng vẽ vô hạn",
+    "Opening Infinite Canvas...": "Đang mở bảng vẽ vô hạn…",
+    "Your Image token is being transferred securely. This page will redirect automatically.": "Token nhóm Image đang được chuyển an toàn. Trang sẽ tự động chuyển hướng.",
+    "No usable Image group token was found. Create or enable one and try again.": "Không tìm thấy token nhóm Image khả dụng. Hãy tạo hoặc bật một token rồi thử lại.",
+    "The Image token group is not available for your account.": "Nhóm token Image không khả dụng cho tài khoản của bạn.",
+    "Infinite Canvas is not configured correctly. Contact an administrator.": "Bảng vẽ vô hạn chưa được cấu hình đúng. Hãy liên hệ quản trị viên.",
+    "Unable to open Infinite Canvas. Please try again.": "Không thể mở bảng vẽ vô hạn. Vui lòng thử lại."
   }
 }
