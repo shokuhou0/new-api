@@ -72,7 +72,11 @@ export function useTopNavLinks(): TopNavLink[] {
     links.push({ title: t('Console'), href: '/dashboard' })
   }
 
-  links.push({ title: t('Infinite Canvas'), href: '/canvas-launch' })
+  links.push({
+    title: t('Infinite Canvas'),
+    href: '/canvas-launch',
+    external: true,
+  })
 
   // Pricing
   const pricing = modules?.pricing
