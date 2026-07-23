@@ -19,6 +19,7 @@ For commercial licensing, please contact support@quantumnous.com
 import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 
+import { resolveCanvasLaunchHref } from '@/features/canvas-launch/navigation'
 import { useStatus } from '@/hooks/use-status'
 import { parseHeaderNavModulesFromStatus } from '@/lib/nav-modules'
 import { useAuthStore } from '@/stores/auth-store'
@@ -74,7 +75,10 @@ export function useTopNavLinks(): TopNavLink[] {
 
   links.push({
     title: t('Infinite Canvas'),
-    href: '/canvas-launch',
+    href: resolveCanvasLaunchHref(
+      Boolean(auth?.user && auth.accessToken),
+      status?.canvas_url
+    ),
     external: true,
   })
 
